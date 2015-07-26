@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="#ff74ff19"
+        android:background="#896d6c71"
         android:onClick="onAddTask" />
 
     <EditText
@@ -27,7 +27,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/btnAddTask"
         android:layout_toLeftOf="@+id/btnAddTask"
-        android:layout_toStartOf="@+id/btnAddTask" />
+        android:layout_toStartOf="@+id/btnAddTask"
+        android:background="#896d6c71" />
 
     <ListView
         android:layout_width="wrap_content"
@@ -36,5 +37,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/btnAddTask" />
+        android:layout_above="@+id/btnAddTask"
+        android:background="#ff050aaa" />
 </RelativeLayout>
